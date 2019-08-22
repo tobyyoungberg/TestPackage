@@ -21,9 +21,10 @@ let package = Package(
         .target(
             name: "TestPackage",
             dependencies: ["example-utils-ios"],
-            path: "ExampleApp/TestPackage"),
+            path: "ExampleApp/TestPackage/Sources"),
         .testTarget(
             name: "TestPackageTests",
-            dependencies: ["TestPackage"]),
+            dependencies: ["TestPackage"],
+            path: "ExampleApp/TestPackage/Tests"),
     ]
 )
