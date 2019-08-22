@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import TestPackage
 
 class ViewController: UIViewController {
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let thing = Thing()
+
+        thing.getData()
     }
 
 
