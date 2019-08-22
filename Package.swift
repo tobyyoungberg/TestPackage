@@ -24,7 +24,6 @@ let package = Package(
             path: "ExampleApp/TestPackage"),
         .testTarget(
             name: "TestPackageTests",
-            dependencies: ["TestPackage"],
-            path: "ExampleApp/TestPackage"),
+            dependencies: ["TestPackage"]),
     ]
 )
